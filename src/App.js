@@ -1,24 +1,22 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import Room from './Room';
+import EnterForm from './EnterForm';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  const [auth, setAuth] = useState(false);
+  const [name, setName] = useState("");
+
+  const changeAuth = (status, data) => {
+    setAuth(status);
+    setName(data);
+  }
+
+  return (   
+    auth ? 
+    <Room changeAuth={changeAuth} auctionName="Тестовые торги на аппарат ЛОТОС №2033564" participant={name} />
+    : 
+    <EnterForm enter={changeAuth} />
   );
 }
 
