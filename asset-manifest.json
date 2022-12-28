@@ -1,0 +1,14 @@
+{
+  "main.css": "/lotus/static/css/main.ef3c3b2a.chunk.css",
+  "main.js": "/lotus/static/js/main.6eec5ca5.chunk.js",
+  "main.js.map": "/lotus/static/js/main.6eec5ca5.chunk.js.map",
+  "runtime~main.js": "/lotus/static/js/runtime~main.4339cae2.js",
+  "runtime~main.js.map": "/lotus/static/js/runtime~main.4339cae2.js.map",
+  "static/js/2.e6d20c9b.chunk.js": "/lotus/static/js/2.e6d20c9b.chunk.js",
+  "static/js/2.e6d20c9b.chunk.js.map": "/lotus/static/js/2.e6d20c9b.chunk.js.map",
+  "index.html": "/lotus/index.html",
+  "precache-manifest.6850c8aac40ac45f40828cb5f821b59f.js": "/lotus/precache-manifest.6850c8aac40ac45f40828cb5f821b59f.js",
+  "service-worker.js": "/lotus/service-worker.js",
+  "static/css/main.ef3c3b2a.chunk.css.map": "/lotus/static/css/main.ef3c3b2a.chunk.css.map",
+  "static/media/clock.gif": "/lotus/static/media/clock.3137927c.gif"
+}
